@@ -1,0 +1,17 @@
+global:
+  type: color
+  category: Other Colors
+
+props:
+  - name: color-democrat
+    value: "#0A54C2"
+    group: party
+
+  - name: color-republican
+    value: "#D3301A"
+    group: party
+
+  - name: color-independent
+    value: "#FFB00D"
+    group: party
+    labelColor: dark

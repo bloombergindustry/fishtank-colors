@@ -1,0 +1,190 @@
+global:
+  type: color
+  category: UI Colors
+
+props:
+  - name: color-black
+    value: "#292E31"
+    group: grayscale
+
+  - name: color-gray-dark
+    value: "#505558"
+    group: grayscale
+
+  - name: color-gray
+    value: "#777C7F"
+    group: grayscale
+
+  - name: color-gray-light
+    value: "#9EA3A6"
+    group: grayscale
+
+  - name: color-gray-lighter
+    value: "#C5CACD"
+    group: grayscale
+    labelColor: dark
+
+  - name: color-gray-lightest
+    value: "#EDF2F5"
+    group: grayscale
+    labelColor: dark
+
+  - name: color-white
+    value: "#FFFFFF"
+    group: grayscale
+    labelColor: dark
+
+  - name: color-background-darker
+    value: "#F2F2F2"
+    group: background
+    labelColor: dark
+
+  - name: color-background
+    value: "#F8F8F8"
+    group: background
+    labelColor: dark
+
+  - name: color-link
+    value: "#267ABD"
+    group: link
+
+  - name: color-link-visited
+    value: "#7F57B8"
+    group: link
+
+  - name: color-link-dark-bg
+    value: "#ACCCE5"
+    group: link
+    labelColor: dark
+
+  - name: color-disabled
+    value: "#C5CACD"
+    group: disabled
+    labelColor: dark
+
+  - name: color-notification-1
+    value: "#EA60A7"
+    group: notification
+
+  - name: color-notification-2
+    value: "#FFB511"
+    group: notification
+    labelColor: dark
+
+  - name: color-notification-3
+    value: "#0D9DDB"
+    group: notification
+
+  - name: color-highlight-1
+    value: "#FFF8B0"
+    group: highlight
+    labelColor: dark
+
+  - name: color-highlight-2
+    value: "#E3F7FF"
+    group: highlight
+    labelColor: dark
+
+  - name: color-highlight-3
+    value: "#E0FFE0"
+    group: highlight
+    labelColor: dark
+
+  - name: color-action-darkest
+    value: "#30855C"
+    group: action
+
+  - name: color-action-darker
+    value: "#399E6E"
+    group: action
+
+  - name: color-action
+    value: "#3DA774"
+    group: action
+
+  - name: color-action-lighter
+    value: "#49B88B"
+    group: action
+
+  - name: color-action-lightest
+    value: "#EBF6F1"
+    group: action
+    labelColor: dark
+
+  - name: color-selected-darkest
+    value: "#0A7DAF"
+    group: selected
+
+  - name: color-selected-darker
+    value: "#0D94CF"
+    group: selected
+
+  - name: color-selected
+    value: "#0D9DDB"
+    group: selected
+
+  - name: color-selected-lighter
+    value: "#0FB0E2"
+    group: selected
+
+  - name: color-selected-lightest
+    value: "#E7F5FB"
+    group: selected
+    labelColor: dark
+
+  - name: color-error-darkest
+    value: "#B43931"
+    group: error
+
+  - name: color-error-darker
+    value: "#D5443A"
+    group: error
+
+  - name: color-error
+    value: "#E1483E"
+    group: error
+
+  - name: color-error-lighter
+    value: "#E7564A"
+    group: error
+
+  - name: color-error-lightest
+    value: "#FBECEB"
+    group: error
+    labelColor: dark
+
+  - name: color-warning-darkest
+    value: "#CC900D"
+    group: warning
+
+  - name: color-warning-darker
+    value: "#F2AB10"
+    group: warning
+
+  - name: color-warning
+    value: "#FFB511"
+    group: warning
+
+  - name: color-warning-lighter
+    value: "#FFC314"
+    group: warning
+
+  - name: color-warning-lightest
+    value: "#FFF7E7"
+    group: warning
+    labelColor: dark
+
+  - name: color-secondary-darker
+    value: "#E0E5E8"
+    group: secondary
+    labelColor: dark
+
+  - name: color-secondary
+    value: "#EDF2F5"
+    group: secondary
+    labelColor: dark
+
+  - name: color-secondary-lighter
+    value: "#F6F8FA"
+    group: secondary
+    labelColor: dark

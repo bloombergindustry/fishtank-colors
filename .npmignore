@@ -1,0 +1,6 @@
+src/
+*.tgz
+test*
+manifest.txt
+packages/
+.npmrc

@@ -1,0 +1,32 @@
+global:
+  type: color
+  category: Brand Colors
+
+props:
+  - name: color-bna-blue
+    value: "#17509F"
+    group: bna
+
+  - name: color-blaw-blue
+    value: "#0D9DDB"
+    group: blaw
+
+  - name: color-btax-orange
+    value: "#EA7815"
+    group: btax
+
+  - name: color-btax-blue
+    value: "#2785D6"
+    group: btax
+
+  - name: color-bgov-navy
+    value: "#0018AB"
+    group: bgov
+    type: gradient-start
+    gradientName: grad-bgov-bluepurple
+
+  - name: color-bgov-purple
+    value: "#9933CC"
+    group: bgov
+    type: gradient-end
+    gradientName: grad-bgov-bluepurple

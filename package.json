@@ -1,0 +1,51 @@
+{
+  "name": "@fishtank/colors",
+  "version": "3.0.5",
+  "description": "Color tokens for the Fishtank Design System",
+  "main": "dist/index.json",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "build:tokens": "theo index.yml --format custom-properties.css,scss,common.js,json,raw.json --dest dist/",
+    "build:manifest": "node scripts/get_token_names.js > token_names.json",
+    "build": "npm run build:tokens && npm run build:manifest",
+    "prepare": "npm run clean && npm run build",
+    "test": "ava",
+    "test:ci": "ava --tap > test.tap",
+    "precommit": "npm run test",
+    "commitmsg": "nothing-major -v -b 'npm -s install' -t 'npm test' test.js token_names.json",
+    "release-props:ci": "scripts/release-props.sh > release.props",
+    "release": "standard-version"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "Fishtank Design System <agile_fishtank@bna.com>",
+  "license": "Apache-2.0",
+  "keywords": [
+    "fishtank",
+    "design-system",
+    "tokens",
+    "colors"
+  ],
+  "files": [
+    "dist/",
+    "colors/"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "commitizen": "^2.9.6",
+    "conventional-changelog-angular": "^1.6.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "globby": "^7.1.1",
+    "husky": "^0.14.3",
+    "immutable": "^3.8.2",
+    "nothing-major": "^1.1.1",
+    "standard-version": "^4.3.0",
+    "theo": "^6.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
