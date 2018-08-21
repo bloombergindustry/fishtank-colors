@@ -19,6 +19,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "repository": {
+    "url": "https://github.com/bloombergbna/fishtank-colors",
+    "type": "git"
+  },
   "author": "Fishtank Design System <agile_fishtank@bna.com>",
   "license": "Apache-2.0",
   "keywords": [
