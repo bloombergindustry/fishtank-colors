@@ -4,3 +4,6 @@ node_modules
 *.tap
 .DS_Store
 token_names.json
+yarn.lock
+package-lock.json
+

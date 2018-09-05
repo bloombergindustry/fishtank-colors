@@ -5,7 +5,7 @@
   "main": "dist/index.json",
   "scripts": {
     "clean": "rm -rf dist/*",
-    "build:tokens": "theo index.yml --format custom-properties.css,scss,common.js,json,raw.json --dest dist/",
+    "build:tokens": "theo index.yml --format custom-properties.css,scss,common.js,json,raw.json,less --dest dist/",
     "build:manifest": "node scripts/get_token_names.js > token_names.json",
     "build": "npm run build:tokens && npm run build:manifest",
     "prepare": "npm run clean && npm run build",
