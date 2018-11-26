@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/bloombergbna/fishtank-colors/compare/v3.0.9...v3.1.0) (2018-11-26)
+
+
+### Bug Fixes
+
+* reverting version to 3.0.9 ([76acad4](https://github.com/bloombergbna/fishtank-colors/commit/76acad4))
+
+
+### Features
+
+* Added repository prop to package.json ([b803c16](https://github.com/bloombergbna/fishtank-colors/commit/b803c16))
+* Removed lockfiles; Added build step and output for .less format ([2b86cb7](https://github.com/bloombergbna/fishtank-colors/commit/2b86cb7))
+
+
+
 <a name="3.0.9"></a>
 ## [3.0.9](https://github.com/bloombergbna/fishtank-colors/compare/v3.0.8...v3.0.9) (2018-11-09)
 
