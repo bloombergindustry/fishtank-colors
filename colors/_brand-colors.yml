@@ -30,3 +30,15 @@ props:
     group: bgov
     type: gradient-end
     gradientName: grad-bgov-bluepurple
+
+  - name: color-btax-dark-blue
+    value: "#17509F"
+    group: btax
+    type: gradient-start
+    gradientName: grad-btax-blue
+
+  - name: color-btax-light-blue
+    value: "#2785D6"
+    group: btax
+    type: gradient-end
+    gradientName: grad-btax-blue
