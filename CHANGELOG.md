@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/bloombergbna/fishtank-colors/compare/v3.1.0...v3.2.0) (2019-01-30)
+
+
+### Bug Fixes
+
+* reverting version to 3.0.9 ([a874cdc](https://github.com/bloombergbna/fishtank-colors/commit/a874cdc))
+
+
+### Features
+
+* added new btax gradient color ([f28a23c](https://github.com/bloombergbna/fishtank-colors/commit/f28a23c))
+
+
+
 <a name="3.1.0"></a>
 # [3.1.0](https://github.com/bloombergbna/fishtank-colors/compare/v3.0.9...v3.1.0) (2018-11-26)
 
