@@ -5,10 +5,12 @@
   "main": "dist/index.json",
   "scripts": {
     "clean": "rm -rf dist/*",
+    "build:heading": "node scripts/generateHeadingColorArray.js > dist/heading.common.js",
+    "build:text": "node scripts/generateTextColorArray.js > dist/text.common.js",
     "build:tokens": "theo index.yml --format custom-properties.css,scss,common.js,json,raw.json,less --dest dist/",
     "build:manifest": "node scripts/get_token_names.js > token_names.json",
     "build:stylesheet": "node scripts/generate_color_css.js > dist/css-variable-stylesheet.css",
-    "build": "npm run build:tokens && npm run build:manifest && npm run build:stylesheet",
+    "build": "npm run build:tokens && npm run build:text && npm run build:heading && npm run build:manifest && npm run build:stylesheet",
     "prepare": "npm run clean && npm run build",
     "test": "ava",
     "test:ci": "ava --tap > test.tap",
