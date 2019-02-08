@@ -6,33 +6,47 @@ props:
   - name: color-black
     value: "#292E31"
     group: grayscale
+    text: true
+    heading: true
 
   - name: color-gray-dark
     value: "#505558"
     group: grayscale
+    text: true
+    heading: true
 
   - name: color-gray
     value: "#777C7F"
     group: grayscale
+    text: true
+    heading: true
 
   - name: color-gray-light
     value: "#9EA3A6"
     group: grayscale
+    text: true
+    heading: true
 
   - name: color-gray-lighter
     value: "#C5CACD"
     group: grayscale
     labelColor: dark
+    text: true
+    heading: true
 
   - name: color-gray-lightest
     value: "#EDF2F5"
     group: grayscale
     labelColor: dark
+    text: true
+    heading: true
 
   - name: color-white
     value: "#FFFFFF"
     group: grayscale
     labelColor: dark
+    text: true
+    heading: true
 
   - name: color-background-darker
     value: "#F2F2F2"
@@ -47,19 +61,26 @@ props:
   - name: color-link
     value: "#267ABD"
     group: link
+    text: true
+    heading: true
 
   - name: color-link-visited
     value: "#7F57B8"
     group: link
+    text: true
+    heading: true
 
   - name: color-link-dark-bg
     value: "#ACCCE5"
     group: link
     labelColor: dark
+    text: true
+    heading: true
 
   - name: color-disabled
     value: "#C5CACD"
     group: disabled
+    text: true
     labelColor: dark
 
   - name: color-notification-1
@@ -101,6 +122,7 @@ props:
   - name: color-action
     value: "#3DA774"
     group: action
+    text: true
 
   - name: color-action-lighter
     value: "#49B88B"
@@ -122,6 +144,7 @@ props:
   - name: color-selected
     value: "#0D9DDB"
     group: selected
+    text: true
 
   - name: color-selected-lighter
     value: "#0FB0E2"
@@ -143,6 +166,7 @@ props:
   - name: color-error
     value: "#E1483E"
     group: error
+    text: true
 
   - name: color-error-lighter
     value: "#E7564A"
@@ -164,6 +188,7 @@ props:
   - name: color-warning
     value: "#FFB511"
     group: warning
+    text: true
 
   - name: color-warning-lighter
     value: "#FFC314"

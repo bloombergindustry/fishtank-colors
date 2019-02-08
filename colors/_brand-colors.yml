@@ -10,6 +10,8 @@ props:
   - name: color-blaw-blue
     value: "#0D9DDB"
     group: blaw
+    text: true
+    heading: true
 
   - name: color-btax-orange
     value: "#EA7815"
@@ -18,6 +20,8 @@ props:
   - name: color-btax-blue
     value: "#2785D6"
     group: btax
+    text: true
+    heading: true
 
   - name: color-bgov-navy
     value: "#0018AB"

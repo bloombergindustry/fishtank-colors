@@ -6,47 +6,59 @@ props:
   - name: color-dataviz-1
     value: "#63B995"
     group: array
+    text: true
 
   - name: color-dataviz-2
     value: "#1E4882"
     group: array
+    text: true
 
   - name: color-dataviz-3
     value: "#F87060"
     group: array
+    text: true
 
   - name: color-dataviz-4
     value: "#1AA2AF"
     group: array
+    text: true
 
   - name: color-dataviz-5
     value: "#FFB511"
     group: array
+    text: true
 
   - name: color-dataviz-6
     value: "#9357C8"
     group: array
+    text: true
 
   - name: color-dataviz-7
     value: "#F697C0"
     group: array
+    text: true
 
   - name: color-dataviz-8
     value: "#2ECC71"
     group: array
+    text: true
 
   - name: color-dataviz-9
     value: "#34495E"
     group: array
+    text: true
 
   - name: color-dataviz-10
     value: "#FF6D10"
     group: array
+    text: true
 
   - name: color-dataviz-positive
     value: "#2ECC71"
     group: boolean
+    text: true
 
   - name: color-dataviz-negative
     value: "#F87060"
     group: boolean
+    text: true
