@@ -10,7 +10,7 @@
     "build:tokens": "theo index.yml --format custom-properties.css,scss,common.js,json,raw.json,less --dest dist/",
     "build:manifest": "node scripts/get_token_names.js > token_names.json",
     "build:stylesheet": "node scripts/generate_color_css.js > dist/css-variable-stylesheet.css",
-    "build:text-stylesheet": "node scripts/generate_color_css-text.js > dist/css-variable-stylesheet.css",
+    "build:text-stylesheet": "node scripts/generate_color_css-text.js > dist/css-variable-stylesheet-text.css",
     "build:header-stylesheet": "node scripts/generate_color_css-heading.js > dist/css-variable-stylesheet-heading.css",
     "build": "npm run build:tokens && npm run build:text && npm run build:heading && npm run build:manifest && npm run build:stylesheet && npm run build:text-stylesheet && npm run build:header-stylesheet",
     "prepare": "npm run clean && npm run build",
