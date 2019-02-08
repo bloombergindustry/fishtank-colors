@@ -6,12 +6,15 @@ props:
   - name: color-democrat
     value: "#0A54C2"
     group: party
+    text: true
 
   - name: color-republican
     value: "#D3301A"
     group: party
+    text: true
 
   - name: color-independent
     value: "#FFB00D"
     group: party
     labelColor: dark
+    text: true

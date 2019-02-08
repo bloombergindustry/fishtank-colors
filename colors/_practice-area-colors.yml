@@ -6,47 +6,71 @@ props:
   - name: color-theme-antitrust
     value: "#57534A"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-banking
     value: "#379851"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-bankruptcy
     value: "#C52700"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-benefits
     value: "#EA6A02"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-corporate
     value: "#8A5BB6"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-ediscovery
     value: "#F64A56"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-environment
     value: "#6DC470"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-health
     value: "#0D3B91"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-ip
     value: "#1E95C1"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-labor
     value: "#00C18C"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-securities
     value: "#45BDE9"
     group: practicearea
+    text: true
+    heading: true
 
   - name: color-theme-telecom
     value: "#6A8C8A"
     group: practicearea
+    text: true
+    heading: true
