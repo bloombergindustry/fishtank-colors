@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.3.0"></a>
+# [3.3.0](https://github.com/bloombergbna/fishtank-colors/compare/v3.2.0...v3.3.0) (2019-02-08)
+
+
+### Features
+
+* Created scripts to generate heading.common.js and text.common.js files. ([988aed6](https://github.com/bloombergbna/fishtank-colors/commit/988aed6))
+* updated base tokens with heading and text attributes. Used to generate heading and text common.js files ([c0e0d5a](https://github.com/bloombergbna/fishtank-colors/commit/c0e0d5a))
+
+
+
 <a name="3.2.0"></a>
 # [3.2.0](https://github.com/bloombergbna/fishtank-colors/compare/v3.1.0...v3.2.0) (2019-01-30)
 
