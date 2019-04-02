@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.5.0"></a>
+# [3.5.0](https://github.com/bloombergbna/fishtank-colors/compare/v3.4.1...v3.5.0) (2019-04-02)
+
+
+### Bug Fixes
+
+* fixed type in package.json to generate stylesheets ([cac86eb](https://github.com/bloombergbna/fishtank-colors/commit/cac86eb))
+* removed functions to generate inline notes ([20bb9c0](https://github.com/bloombergbna/fishtank-colors/commit/20bb9c0))
+* reverting version to 3.0.9 ([64b32ed](https://github.com/bloombergbna/fishtank-colors/commit/64b32ed))
+
+
+### Features
+
+* added new btax gradient color ([1a3ef5a](https://github.com/bloombergbna/fishtank-colors/commit/1a3ef5a))
+* added text and heading component custom stylesheet scripts ([c71344b](https://github.com/bloombergbna/fishtank-colors/commit/c71344b))
+* Created scripts to generate heading.common.js and text.common.js files. ([1a29641](https://github.com/bloombergbna/fishtank-colors/commit/1a29641))
+* updated base tokens with heading and text attributes. Used to generate heading and text common.js files ([47a8a70](https://github.com/bloombergbna/fishtank-colors/commit/47a8a70))
+
+
+
 <a name="3.4.1"></a>
 ## [3.4.1](https://github.com/bloombergbna/fishtank-colors/compare/v3.4.0...v3.4.1) (2019-02-08)
 

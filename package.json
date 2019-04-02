@@ -1,6 +1,6 @@
 {
   "name": "@fishtank/colors",
-  "version": "3.4.1",
+  "version": "3.5.0",
   "description": "Color tokens for the Fishtank Design System",
   "main": "dist/index.json",
   "scripts": {
