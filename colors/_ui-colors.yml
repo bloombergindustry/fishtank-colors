@@ -114,10 +114,12 @@ props:
   - name: color-action-darkest
     value: "#30855C"
     group: action
+    text: true
 
   - name: color-action-darker
     value: "#399E6E"
     group: action
+    text: true
 
   - name: color-action
     value: "#3DA774"
@@ -127,19 +129,23 @@ props:
   - name: color-action-lighter
     value: "#49B88B"
     group: action
+    text: true
 
   - name: color-action-lightest
     value: "#EBF6F1"
     group: action
+    text: true
     labelColor: dark
 
   - name: color-selected-darkest
     value: "#0A7DAF"
     group: selected
+    text: true
 
   - name: color-selected-darker
     value: "#0D94CF"
     group: selected
+    text: true
 
   - name: color-selected
     value: "#0D9DDB"
@@ -149,19 +155,23 @@ props:
   - name: color-selected-lighter
     value: "#0FB0E2"
     group: selected
+    text: true
 
   - name: color-selected-lightest
     value: "#E7F5FB"
     group: selected
     labelColor: dark
+    text: true
 
   - name: color-error-darkest
     value: "#B43931"
     group: error
+    text: true
 
   - name: color-error-darker
     value: "#D5443A"
     group: error
+    text: true
 
   - name: color-error
     value: "#E1483E"
@@ -171,19 +181,23 @@ props:
   - name: color-error-lighter
     value: "#E7564A"
     group: error
+    text: true
 
   - name: color-error-lightest
     value: "#FBECEB"
     group: error
     labelColor: dark
+    text: true
 
   - name: color-warning-darkest
     value: "#CC900D"
     group: warning
+    text: true
 
   - name: color-warning-darker
     value: "#F2AB10"
     group: warning
+    text: true
 
   - name: color-warning
     value: "#FFB511"
@@ -193,11 +207,13 @@ props:
   - name: color-warning-lighter
     value: "#FFC314"
     group: warning
+    text: true
 
   - name: color-warning-lightest
     value: "#FFF7E7"
     group: warning
     labelColor: dark
+    text: true
 
   - name: color-secondary-darker
     value: "#E0E5E8"
