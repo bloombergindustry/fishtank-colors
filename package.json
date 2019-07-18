@@ -12,7 +12,7 @@
     "build:stylesheet": "node scripts/generate_color_css.js > dist/css-variable-stylesheet.css",
     "build:text-stylesheet": "node scripts/generate_color_css-text.js > dist/css-variable-stylesheet-text.css",
     "build:header-stylesheet": "node scripts/generate_color_css-heading.js > dist/css-variable-stylesheet-heading.css",
-    "build": "npm run build:tokens && npm run build:text && npm run build:heading && npm run build:manifest && npm run build:stylesheet && npm run build:text-stylesheet && npm run build:header-stylesheet",
+    "build": "rm -rf dist/ && npm run build:tokens && npm run build:text && npm run build:heading && npm run build:manifest && npm run build:stylesheet && npm run build:text-stylesheet && npm run build:header-stylesheet",
     "prepare": "npm run clean && npm run build",
     "test": "ava",
     "test:ci": "ava --tap > test.tap",
